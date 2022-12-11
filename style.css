@@ -2,7 +2,8 @@ body {
     font-family: 'Encode Sans', sans-serif;
 }
 
-.border-bottom {
+header,
+.logo-container {
     border-bottom: 1px solid #f5f6f7;
 }
 
@@ -66,7 +67,6 @@ a.receitas {
 
 main {
     display: flex;
-    justify-content: space-between;
     margin: 34px auto;
     width: 1250px;
 }
@@ -87,7 +87,6 @@ h1 {
 
 .left-headlines {
     padding-bottom: 25px;
-    border-bottom: 1px solid #ebedef;
 }
 
 .left-headlines p {
@@ -98,7 +97,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding-bottom: 25px;
-    border-bottom: 1px solid #f5f6f7;
+    border-top: 1px solid #ebedef;
 }
 
 .left-news .newscard {
@@ -115,12 +114,15 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 240px;
+    margin-left: auto;
+    padding-left: 36px;
+    border-left: 1px solid #ebedef;
 }
 
 .sport-section .newscard,
 .gshow-section .newscard {
     margin-bottom: 40px;
+    width: 240px;
 }
 
 .sport-section .news-cat {
@@ -131,6 +133,7 @@ h1 {
     color: #EC8006;
 }
 
+/* Formatando as newscards */
 a.newscard {
     display: block;
 }
