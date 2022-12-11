@@ -49,6 +49,20 @@ h6 {
     overflow-wrap: break-word;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
 #root,
 #__next {
     isolation: isolate;
